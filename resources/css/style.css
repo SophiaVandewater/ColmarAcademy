@@ -24,7 +24,6 @@ header .menu {
 
 header li {
   padding-left: 16px;
-
 }
 
 .truncated-menu {
@@ -34,17 +33,26 @@ header li {
 .mainbanner {
   background-color: grey;
   display: flex;
+  width: 100%;
 }
 
-.mainbanner img {
-  max-width: 60%;
+.img-container {
+  width: 60%;
+  display: block;
   padding: 32px 24px;
+}
+
+.img-container img {
+  display: block;
+  width: 100%;
 }
 
 .banner-start {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-content: center;
+  width: 25%;
 }
 
 .banner-start button {
@@ -52,4 +60,76 @@ header li {
   color: white;
   border: none;
   padding: 8px;
+}
+
+.information {
+  display: flex;
+  width: 100%;
+}
+
+.info-main {
+  display: block;
+  padding: 32px 24px;
+  height: auto;
+  width: 60%;
+}
+
+.img-cont {
+  display: block;
+  width: 100%;
+}
+
+.img-cont img {
+  display: block;
+  width: 100%;
+}
+
+.info-items {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.info-img {
+  display: block;
+  width: 35%;
+  height: auto;
+  padding: 16px;
+}
+
+.info-img img {
+  display: block;
+  width: 100%;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.classes {
+  background-color: grey;
+  background-color: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.classrow {
+  display: flex;
+
+}
+
+.course {
+  background-color: white;
+
 }
